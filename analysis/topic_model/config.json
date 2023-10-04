@@ -1,0 +1,41 @@
+{
+  "calculate_probabilities": false,
+  "language": "english",
+  "low_memory": false,
+  "min_topic_size": 10,
+  "n_gram_range": [
+    1,
+    1
+  ],
+  "nr_topics": null,
+  "seed_topic_list": [
+    [
+      "fear",
+      "grief",
+      "broken",
+      "pain",
+      "hurt",
+      "loss"
+    ],
+    [
+      "act",
+      "play",
+      "love",
+      "passion"
+    ],
+    [
+      "comedy",
+      "laugh",
+      "humor"
+    ],
+    [
+      "skill",
+      "craft",
+      "versatility",
+      "art"
+    ]
+  ],
+  "top_n_words": 10,
+  "verbose": false,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+}
